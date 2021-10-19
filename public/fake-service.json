@@ -1,0 +1,38 @@
+[
+    {
+        "name": "Ultrasonography",
+        "discription": "Medical ultrasound includes diagnostic imaging techniques, as well as therapeutic applications of ultrasound. In diagnosis, it is used to create an image of internal body structures such as tendons, muscles, joints, blood vessels, and internal organs.",
+        "cost": 25,
+        "img": "https://i.ibb.co/SJw2gf3/s-1.jpg"
+    },
+    {
+        "name": "Magnetic resonance imaging",
+        "discription": "Magnetic resonance imaging is a medical imaging technique used in radiology to form pictures of the anatomy and the physiological processes of the body. MRI scanners use strong magnetic fields, magnetic field gradients, and radio waves to generate images of the organs in the body. ",
+        "cost": 40,
+        "img": "https://i.ibb.co/wcMX5xf/s-3.jpg"
+    },
+    {
+        "name": " Eye examination",
+        "discription": "An eye examination is a series of tests performed to assess vision and ability to focus on and discern objects. It also includes other tests and examinations pertaining to the eyes. Eye examinations are primarily performed by an optometrist, ophthalmologist, orthoptist, or an optician.",
+        "cost": 20,
+        "img": "https://i.ibb.co/s922vs8/s-5.jpg"
+    },
+    {
+        "name": "Ear examination",
+        "discription": "Ear infections are a common problem, especially with small children. A dull or absent light reflex from the eardrum may be a sign of a middle ear infection or fluid. The eardrum may be red and bulging if there is an infection. Amber liquid or bubbles behind the eardrum are often seen if fluid collects in the middle ear.",
+        "cost": 20,
+        "img": "https://i.ibb.co/Bsrby3H/s-6.jpg"
+    },
+    {
+        "name": "X-ray",
+        "discription": "An X-ray, or, much less commonly, X-radiation, is a penetrating form of high-energy electromagnetic radiation. Most X-rays have a wavelength ranging from 10 picometers to 10 nanometers, corresponding to frequencies in the range 30 petahertz to 30 exahertz and energies in the range 124 eV to 124 keV.",
+        "cost": 26,
+        "img": "https://i.ibb.co/Vg4Dypb/s-2.jpg"
+    },
+    {
+        "name": "Electrocardiography",
+        "discription": "Electrocardiography is the process of producing an electrocardiogram. It is a graph of voltage versus time of the electrical activity of the heart using electrodes placed on the skin.",
+        "cost": 30,
+        "img": "https://i.ibb.co/cYZQ8dj/s-4.jpg"
+    }
+]
