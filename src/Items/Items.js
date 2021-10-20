@@ -7,7 +7,7 @@ const Items = ({ service }) => {
         <div>
 
 
-            <div className="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl m-10">
+            <div className="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl m-10 transition duration-500 ease-in-out  hover:bg-indigo-100 transform hover:-translate-y-1 hover:scale-110 ...">
 
                 <div className="md:flex">
                     <div className="md:flex-shrink-0">

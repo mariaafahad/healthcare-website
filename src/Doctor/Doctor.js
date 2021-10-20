@@ -1,25 +1,23 @@
 import React, { useEffect, useState } from 'react';
 import Doctors from '../Doctors/Doctors';
+import FakeData from '../Components/FakeData/FakeData'
+import Navbar from '../Components/Home/Navbar';
+import Footer from '../Components/Footer/Footer';
 
 const Doctor = () => {
 
     const [biographies, setBiographies] = useState([])
-    useEffect(() => {
-        fetch('fake.json')
-            .then(res => res.json())
-            .then((data) => setBiographies(data))
-    }, [])
-    console.log(biographies);
+
+    console.log(biographies, "Biography form doctor");
     return (
-        <div className="grid grid-rows-3 grid-flow-col gap-4 ">
+        <div><Navbar /><div className="grid grid-rows-3 grid-flow-col gap-4 my-20">
 
             {
-                biographies.map(biography => <Doctors
+                FakeData.map(biography => <Doctors
                     key={biography.id}
-                    bio={biography}
-                ></Doctors>)
+                    biography={biography} />)
             }
-        </div>
+        </div><Footer /></div>
     );
 };
 

@@ -1,6 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import useFirebase from '../../Hooks/UseFireBase';
+import Footer from '../Footer/Footer';
+import NavShared from '../Shared/NavShared';
 
 
 const Login = () => {
@@ -8,6 +10,7 @@ const Login = () => {
     const { signInUsingGoogle } = useFirebase();
     return (
         <div>
+            {/* <NavShared /> */}
             {/* <!-- component --> */}
             <div className="flex items-center justify-center">
                 <div className="w-full max-w-md">
@@ -68,6 +71,7 @@ const Login = () => {
                     </div>
                 </div>
             </div>
+            {/* <Footer /> */}
         </div>
     );
 };

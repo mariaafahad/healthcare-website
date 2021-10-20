@@ -1,10 +1,14 @@
 import React from 'react';
+import Footer from '../Footer/Footer';
+import Navbar from '../Home/Navbar';
+import NavShared from '../Shared/NavShared';
 
 const Payment = () => {
     return (
         <div>
+            {/* <NavShared /> */}
             {/* <!-- component --> */}
-            <div class="bg-white my-4 shadow p-8 rounded-lg">
+            <div class="bg-white shadow p-8 rounded-lg my-16">
                 <div class="flex items-center mb-4">
                     <div class="border-2 border-blue px-3 py-2 rounded-full font-bold text-blue mr-2">1</div>
                     <h2 class="text-lg">Your Payment Information</h2>
@@ -19,6 +23,7 @@ const Payment = () => {
                     </div>
                 </div>
             </div>
+            {/* <Footer /> */}
         </div>
 
     );
