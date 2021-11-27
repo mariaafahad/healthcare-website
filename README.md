@@ -1,13 +1,9 @@
-git hub link: https://github.com/Programming-Hero-Web-Course3/healthcare-related-website-mariaafahad
+git hub link: https://github.com/mariaafahad/healthcare-website
 
 
 live link : https://nervous-pare-ebe53d.netlify.app/
 
 
-
-
-* This is a Healt Care project.
-* It creates with Tailwind react.
-* It has 5 Routes.
-* you can log in with google account.
-* It has a Private route.
+* Responsive project with Google login.
+* Sign-in is required for taking any service.
+* User will be able to see their name and image on the navbar.
